@@ -1,0 +1,27 @@
+simulate_day_high_usage:
+  description: >
+    Simulate one day of smartphone usage for the high usage agent.
+    Make decisions for each hour from 6 AM to 10 PM, choosing between
+    social media, regular usage, reading, or no usage. Aim to gradually
+    reduce social media time and increase reading time while maintaining
+    a realistic usage pattern. Calculate points earned and track progress
+    towards the daily goal.
+  agent: high_usage_agent
+
+simulate_day_medium_usage:
+  description: >
+    Simulate one day of smartphone usage for the medium usage agent.
+    Make decisions for each hour from 6 AM to 10 PM, choosing between
+    social media, regular usage, reading, or no usage. Aim to balance
+    screen time between social media and other activities, while increasing
+    reading time. Calculate points earned and track progress towards the daily goal.
+  agent: medium_usage_agent
+
+simulate_day_low_usage:
+  description: >
+    Simulate one day of smartphone usage for the low usage agent.
+    Make decisions for each hour from 6 AM to 10 PM, choosing between
+    social media, regular usage, reading, or no usage. Aim to balance
+    screen time between social media and other activities, while increasing
+    reading time. Calculate points earned and track progress towards the daily goal.
+  agent: low_usage_agent

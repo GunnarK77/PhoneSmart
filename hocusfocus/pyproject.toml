@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hocusfocus"
+version = "0.1.0"
+description = "HocusFocus using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.70.1,<1.0.0" }
+
+
+[tool.poetry.scripts]
+hocusfocus = "hocusfocus.main:run"
+run_crew = "hocusfocus.main:run"
+train = "hocusfocus.main:train"
+replay = "hocusfocus.main:replay"
+test = "hocusfocus.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
