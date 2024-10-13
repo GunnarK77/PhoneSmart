@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 import os
-#os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
+# Load the environment variables from the .env file here
 
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
