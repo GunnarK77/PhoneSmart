@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
 
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
